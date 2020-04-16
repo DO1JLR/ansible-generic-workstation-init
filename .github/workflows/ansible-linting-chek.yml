@@ -15,6 +15,3 @@ jobs:
       with:
         targets: "."
         # [required]
-        # Paths to ansible files (i.e., playbooks, tasks, handlers etc..)
-        args: ""
-        # [optional]

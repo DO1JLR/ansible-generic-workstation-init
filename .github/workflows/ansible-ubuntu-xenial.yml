@@ -13,4 +13,5 @@ jobs:
     - name: ansible check with ubuntu:xenial
       uses: roles-ansible/check-ansible-ubuntu-xenial-action@master
       with:
-        targets: "./"
+        targets: "site.yml"
+        requirements: 'requirements.yml'

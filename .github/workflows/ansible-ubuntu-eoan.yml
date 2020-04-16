@@ -13,4 +13,5 @@ jobs:
     - name: ansible check with ubuntu:eoan
       uses: roles-ansible/check-ansible-ubuntu-eoan-action@master
       with:
-        targets: "./"
+        targets: "site.yml"
+        requirements: 'requirements.yml'

@@ -13,4 +13,5 @@ jobs:
     - name: ansible check with ubuntu:disco
       uses: roles-ansible/check-ansible-ubuntu-disco-action@master
       with:
-        targets: "./"
+        targets: "site.yml"
+        requirements: 'requirements.yml'

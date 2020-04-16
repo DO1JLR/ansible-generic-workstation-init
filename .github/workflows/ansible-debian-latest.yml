@@ -13,4 +13,5 @@ jobs:
     - name: ansible check with debian:latest
       uses: roles-ansible/check-ansible-debian-latest-action@master
       with:
-        targets: "./"
+        targets: "site.yml"
+        requirements: 'requirements.yml'

@@ -13,4 +13,5 @@ jobs:
     - name: ansible check with fedora:31
       uses: roles-ansible/check-ansible-fedora-31-action@master
       with:
-        targets: "./"
+        targets: "site.yml"
+        requirements: 'requirements.yml'

@@ -13,4 +13,5 @@ jobs:
     - name: ansible check with debian:stretch
       uses: roles-ansible/check-ansible-debian-stretch-action@master
       with:
-        targets: "./"
+        targets: "site.yml"
+        requirements: 'requirements.yml'
